@@ -1,0 +1,15 @@
+<div class="lg:full relative rounded-md overflow-hidden hover:cursor-pointer lg:h-full lg:min-h-[30rem] shadow">
+  <img class="w-full lg:h-full transition hover:scale-105 object-cover" src={{game.image}} alt="game image">
+
+  <div class="absolute top-3/4 right-0 z-10 px-14 py-2 text-white bg-black/70">
+    <p class="text-sm font-semibold">{{game.tag}}</p>
+  </div>
+
+  <div class="bg-black/70 text-white p-2 z-10 absolute bottom-0 w-full">
+    <h1 class="font-bold">Play it Now!</h1>
+    <div class="flex justify-between border-l-2 px-2 my-2 border-l-cyan-400 text-sm">
+      <p>{{game.media}}</p>
+      <p class="font-bold">R$ {{game.price}}</p>
+    </div>
+  </div>
+</div>
